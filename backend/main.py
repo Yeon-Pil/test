@@ -25,7 +25,7 @@ class AnalyzeRequest(BaseModel):
     text: str = Field(
         min_length=5,
         max_length=2000,
-        description="AI가 분석할 사용자의 상황",
+        description="AI가 분석할 사용자의 상황aa",
     )
 
 
